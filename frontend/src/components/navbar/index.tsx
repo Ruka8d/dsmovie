@@ -3,13 +3,13 @@ import './styles.css';
 function Navbar() {
     return (
         <header>
-            <nav className="containerssssss">
+            <nav className="container">
                 <div className="dsmovie-nav-content">
                     <h1>DSMovie</h1>
                     <a href="https://github.com/Ruka8d">
                         <div className="dsmovie-contact-container">
                             <GithubIcon />
-                            <p>/devlucas</p>
+                            <p className = "dsmovie-contact-link">/devlucas</p>
                         </div>
                     </a>
                 </div>
